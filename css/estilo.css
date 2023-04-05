@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+/*
+**** Formatação em geral ****
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: "Delicious Handrawn";
+	background: #FCDED7;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+h2 {
+	color: #612234;
+}
+
+.conteudo-lateral {
+	color: #AD3D5D;
+}
+
+.conteudo-lateral h3 {
+	color: #612234;
+	background: #E695AC;
+	padding: 5px;
+}
+
+
+
+.data-postagem {
+	color: #E695AC;
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.texto {
+	color: #AD3D5D;
+}
+
+/*
+**** Formatação cabeçalho ****
+*/
+
+header {
+	font-family: "Titillium Web";
+	text-align: center;
+	background: #612234;
+	width: 100%;
+	height: 250px;
+}
+
+header a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.marrom {
+	color: #E695AC;
+}
+
+header a:hover {
+	text-decoration: none;
+}
+
+nav ul {
+	list-style-type: none;
+	margin-top: 20px;
+}
+
+nav ul li {
+	display: inline;
+	margin: 15px;
+}
+
+nav a:hover{
+	background: #E695AC;
+	color: #612234;
+	padding: 5px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+nav a:link, a:visited {
+	padding: 8px 12px;
+
+}
+
+a {
+	text-decoration: none;
+	color: #612234;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+
+#logo h1 {
+	font-size: 4em;
+	padding: 10px;
+}
+
+#logo p {
+	font-size: 1.2em;
+	color: #E695AC;
+}
+
+#logo, #area-menu {
+	padding: 10px;
+}
+
+#area-principal {
+	
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+
+
+#area-postagens {
+	width: 660px;
+	float: left;
+}
+
+#area-lateral {
+	width: 240px;
+	float: right;
+}
+
+.postagem {
+	padding: 20px;
+	margin-bottom: 10px;
+	background: white;
+}
+
+.postagem ul{
+	margin-left: 15px;
+}
+
+.postagem img{
+	border: 7px groove #E695AC;
+	
+}
+
+.conteudo-lateral {
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+
+}
+
+footer {
+	font-family: "Titillium Web";
+	clear: both;
+	text-align: center;
+	padding: 8px;
+	background: #612234;
+	color: #E695AC;
+
+}
+
+/*
+**** Layout ****
+*/
+
+
+.postagem-lateral {
+	font-size: 0.8em;
+	padding: 5px;
+	border-bottom: 1px dotted #E695AC;
+}
+
+#links {
+	font-size: 1.2em;
+	margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
