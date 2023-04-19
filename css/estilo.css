@@ -59,6 +59,11 @@ header {
 	height: 250px;
 }
 
+.header {
+	position: stick;
+	top: 0;
+}
+
 header a {
 	color: #fff;
 	text-decoration: none;
