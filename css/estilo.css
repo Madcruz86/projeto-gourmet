@@ -60,7 +60,7 @@ header {
 }
 
 .header {
-	position: stick;
+	position: fixed;
 	top: 0;
 }
 
